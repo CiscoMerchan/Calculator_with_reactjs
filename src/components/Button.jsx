@@ -8,7 +8,11 @@ function Button(props){
 
     return(
       <div 
-        onClick={manejarClic}
+        /*props.manejarClic(props.children) = when user click in button manejarClic will
+        pass the value of  {props.children}(props.children = to any value between, ejem:
+        <Button manejarClic={addInput}>1</Button> [in this case the number '1']) that 
+        value (props.children ) will go in addInput(props.children = val)*/ 
+        onClick={() => props.manejarClic(props.children)}
         className={`boton-contenedor ${esOperador(props.children) ? 'operador' : ""}`.trimEnd()}>
         {props.children}
       </div>        

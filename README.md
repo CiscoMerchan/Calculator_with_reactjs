@@ -51,3 +51,5 @@ How to render the character of any <Button> inside <Pantalla>?
 
     * useState Hook to manage the state of 'props.input' in <Patalla>
     - Asign Event Listener in <Button>
+     for further undestanding of managin the event go to Button.jsx from line 11 to 14
+    - Check that onClic values are render in the screen 
