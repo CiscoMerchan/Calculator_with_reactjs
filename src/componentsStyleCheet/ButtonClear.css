@@ -5,13 +5,14 @@
 	/* the button will fill all the space */
 	flex: 1;
 	background-color: #ac0246;
-	margin-top: 8px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	justify-content: center;
 	align-items: center;
 	font-weight: bold;
 	color: antiquewhite;
 	border: 2px solid whitesmoke;
-	border-radius: 12%;
+	border-radius: 5% 5% 50% 50%;
 	cursor: pointer;
 }
 
