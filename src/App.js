@@ -45,7 +45,9 @@ function App() {
           <Button manejarClic={addInput}>/</Button>
         </div>
         <div className='fila'>
-          <ButtonClear>Clear</ButtonClear>
+          <ButtonClear manejarClear={() => setInput('')}>
+          Clear
+          </ButtonClear>
         </div>
 
       </div>

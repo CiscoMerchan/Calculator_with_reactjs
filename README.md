@@ -45,11 +45,26 @@ You may also see any lint errors in the console.
     - Style ButtonClear in ButtonClear.css
     - Import ButtonClear.css in ButtonClear.jsx 
 
-## Render Input in the screen
+## 3 Render Input in the screen
 
 How to render the character of any <Button> inside <Pantalla>?
 
     * useState Hook to manage the state of 'props.input' in <Patalla>
     - Asign Event Listener in <Button>
      for further undestanding of managin the event go to Button.jsx from line 11 to 14
-    - Check that onClic values are render in the screen 
+    - Check that onClic values are render in the screen
+## 4 Event Listener for ButtonClear
+
+    in App.js inside <ButtonClear> create a props and call a funtion that will change the state of the input inside <Pantalla>. ejem: 
+    `
+<ButtonClear manejarClear={() => setInput('')}>
+          Clear
+          </ButtonClear>
+`
+    - Then in ButtonClear.jsx add the manejarClear props in onClick event listener. ejem:
+    `
+    <div onClick={props.manejarClear} 
+	className='boton-clear'>
+		{props.children}
+	</div>
+    `
