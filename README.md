@@ -18,4 +18,15 @@ You may also see any lint errors in the console.
 
 ### Get ready
     -Delete unnecessairies files
-     
+
+## 1. Layout of App.js
+    -Create elements of Logo
+    -Create element of calculator
+    -Set css code in App.css for elements in App.js
+
+## 2. Components   
+
+    - Create folder components in src folder
+    - Create file Botton.jsx
+    - First component Button , using `{props.children}`
+    - import Button component to check that it is working  
