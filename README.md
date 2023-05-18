@@ -81,3 +81,4 @@ How to render the character of any <Button> inside <Pantalla>?
 `    
 ### Note:
     In case the user click on ' = ' without typing before any caracter and the the user click on numbers and again in  ' = ' it will give error so to avoid error, will be a condition in calcullateResult that will check in 'input' is true. if true will make the evaluation. else will give an alert.
+

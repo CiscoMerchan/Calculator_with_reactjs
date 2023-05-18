@@ -3,7 +3,7 @@ function Button(props){
 
   const esOperador = valor => {
     // isNaN if is a number. = if valor is a number
-    return isNaN(valor) && (valor != '.') && (valor != '=');
+    return isNaN(valor) && (valor !== '.') && (valor !== '=');
   };
 
     return(
