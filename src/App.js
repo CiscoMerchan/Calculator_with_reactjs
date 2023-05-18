@@ -2,6 +2,7 @@
 import './App.css';
 import Button from './components/Button'
 import Pantalla from './components/Pantalla';
+import ButtonClear from './components/ButtonClear'
 function App() {
   return (
     <div className="App">
@@ -35,7 +36,7 @@ function App() {
           <Button>/</Button>
         </div>
         <div className='fila'>
-        Clear
+          <ButttonClear />
         </div>
 
       </div>
