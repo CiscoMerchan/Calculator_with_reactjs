@@ -37,6 +37,10 @@ You may also see any lint errors in the console.
     - Export to App.js Pantalla component  
     - Style Pantalla component creating a new css file in componentStyleCheet
     -Style Pantalla in Pantalla.css
-    import Pantalla.css in Pantalla.jsx
+    - Import Pantalla.css in Pantalla.jsx
   ### Button Clear
-    - Create file ButtonClear.jsx inside components folder      
+    - Create file ButtonClear.jsx inside components folder 
+    - Export to App.js ButtonClear component  
+    - Style ButtonClear component creating a new css file in componentStyleCheet
+    - Style ButtonClear in ButtonClear.css
+    - Import ButtonClear.css in ButtonClear.jsx     
