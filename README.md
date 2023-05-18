@@ -43,4 +43,10 @@ You may also see any lint errors in the console.
     - Export to App.js ButtonClear component  
     - Style ButtonClear component creating a new css file in componentStyleCheet
     - Style ButtonClear in ButtonClear.css
-    - Import ButtonClear.css in ButtonClear.jsx     
+    - Import ButtonClear.css in ButtonClear.jsx 
+
+## Render Input in the screen
+
+How to render the character of any <Button> inside <Pantalla>?
+
+    * useState Hook to manage the state of 'props.input' in <Patalla>
