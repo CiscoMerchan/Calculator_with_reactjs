@@ -33,3 +33,5 @@ You may also see any lint errors in the console.
     * The Set the buttons in the calculator
   ### Calculator Screen
     - Create file Pantalla.jsx inside components folder
+    - Create component Pantalla as a 'const' no like a function. 
+    - Export to App.js Pantalla component  
