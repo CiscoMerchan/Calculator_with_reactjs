@@ -71,5 +71,13 @@ How to render the character of any <Button> inside <Pantalla>?
 
 ## 5 Calculate the results
     - Evaluate results when user clicks on ' = '
-        For this evaluation it will be import the module {evaluate} from 'mathjs' packge 
-        - install packge 'mathjs' ` npm install mathjs ` more info: " https://mathjs.org/docs/getting_started.html "
+        For this evaluation it will be import the module {evaluate} from 'mathjs' package 
+        - install package 'mathjs' ` npm install mathjs ` more info: " https://mathjs.org/docs/getting_started.html "
+    ### With this package the calculation is made in this function:
+`
+    const calculateResult = () => {
+        setInput(evaluate(input));
+  };
+`    
+### Note:
+    In case the user click on ' = ' without typing before any caracter and the the user click on numbers and again in  ' = ' it will give error so to avoid error, will be a condition in calcullateResult that will check in 'input' is true. if true will make the evaluation. else will give an alert.
