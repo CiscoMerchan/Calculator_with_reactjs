@@ -1,4 +1,4 @@
-
+import '../componentsStyleCheet/Button.css'
 function Button(props){
 
   const esOperador = valor => {

@@ -30,3 +30,4 @@ You may also see any lint errors in the console.
     - Create file Botton.jsx
     - First component Button , using `{props.children}`
     - import Button component to check that it is working  
+    * The Set the buttons in the calculator
