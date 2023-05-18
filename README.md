@@ -50,3 +50,4 @@ You may also see any lint errors in the console.
 How to render the character of any <Button> inside <Pantalla>?
 
     * useState Hook to manage the state of 'props.input' in <Patalla>
+    - Asign Event Listener in <Button>
