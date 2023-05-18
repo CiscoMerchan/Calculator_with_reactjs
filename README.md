@@ -25,9 +25,11 @@ You may also see any lint errors in the console.
     -Set css code in App.css for elements in App.js
 
 ## 2. Components   
-
+   ### Button    
     - Create folder components in src folder
     - Create file Botton.jsx
     - First component Button , using `{props.children}`
     - import Button component to check that it is working  
     * The Set the buttons in the calculator
+  ### Calculator Screen
+    - Create file Pantalla.jsx inside components folder
