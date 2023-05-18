@@ -3,7 +3,8 @@ import './App.css';
 import Button from './components/Button';
 import Pantalla from './components/Pantalla';
 import ButtonClear from './components/ButtonClear';
-import {useState} from 'react';
+import { useState } from 'react';
+import { evaluate } from 'mathjs';
 
 function App() {
 
@@ -11,6 +12,10 @@ function App() {
 
   const addInput = val => {
     setInput(input + val);    
+  };
+
+  const calculateResult = () => {
+    setInput(evaluate(input));
   };
 
   return (
@@ -39,7 +44,7 @@ function App() {
           <Button manejarClic={addInput}>*</Button>
         </div>
         <div className='fila'>
-          <Button manejarClic={addInput}>=</Button>
+          <Button manejarClic={calculateResult}>=</Button>
           <Button manejarClic={addInput}>0</Button>
           <Button manejarClic={addInput}>.</Button>
           <Button manejarClic={addInput}>/</Button>

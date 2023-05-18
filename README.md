@@ -68,3 +68,7 @@ How to render the character of any <Button> inside <Pantalla>?
 		{props.children}
 	</div>
     `
+
+## 5 Calculate the results
+    - Evaluate results when user clicks on ' = '
+        For this evaluation it will be import the module {evaluate} from 'mathjs' packge 
