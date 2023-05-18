@@ -1,5 +1,5 @@
 .boton-contenedor{
-  height: 80px;
+  height: 65px;
   display: flex;
   /* each button will fill the same space indistint of who many button are in the container */
   flex: 1 1;

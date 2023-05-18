@@ -1,5 +1,5 @@
 .boton-clear	{
-	height: 80px;
+	height: 60px;
 	font-size: 1.6em;
 	display: flex;
 	/* the button will fill all the space */
@@ -11,6 +11,7 @@
 	font-weight: bold;
 	color: antiquewhite;
 	border: 2px solid whitesmoke;
+	border-radius: 12%;
 	cursor: pointer;
 }
 
