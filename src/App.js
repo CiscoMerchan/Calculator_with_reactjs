@@ -8,6 +8,11 @@ function App() {
       <h1 className='logo'>calculadora react</h1>
       </div>
       <div className='contenedor-calculadora'>
+      <div className='fila'></div>
+      <div className='fila'></div>
+      <div className='fila'></div>
+      <div className='fila'></div>
+      <div className='fila'></div>
 
       </div>
     </div>
