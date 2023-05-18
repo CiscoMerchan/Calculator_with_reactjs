@@ -72,3 +72,4 @@ How to render the character of any <Button> inside <Pantalla>?
 ## 5 Calculate the results
     - Evaluate results when user clicks on ' = '
         For this evaluation it will be import the module {evaluate} from 'mathjs' packge 
+        - install packge 'mathjs' ` npm install mathjs ` more info: " https://mathjs.org/docs/getting_started.html "
