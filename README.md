@@ -1,5 +1,7 @@
 # Calculator with React.js
 
+![Calculator with React.js](./public/img/calculator_react.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -12,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-# 3 React Project Calculator
+# 3th React Project Calculator
 
 ### Get ready
     -Delete unnecessairies files
@@ -43,40 +45,41 @@ You may also see any lint errors in the console.
     - Style ButtonClear in ButtonClear.css
     - Import ButtonClear.css in ButtonClear.jsx 
 
-## 3 Render Input in the screen
+## 3. Render Input in the screen
 
-How to render the character of any <Button> inside <Pantalla>?
+How to render the character of any Button component inside Pantalla component
 
     * useState Hook to manage the state of 'props.input' in <Patalla>
     - Asign Event Listener in <Button>
      for further undestanding of managin the event go to Button.jsx from line 11 to 14
     - Check that onClic values are render in the screen
-## 4 Event Listener for ButtonClear
+## 4. Event Listener for ButtonClear
 
     in App.js inside <ButtonClear> create a props and call a funtion that will change the state of the input inside <Pantalla>. ejem: 
-    `
-<ButtonClear manejarClear={() => setInput('')}>
+    
+    <ButtonClear manejarClear={() => setInput('')}>
           Clear
           </ButtonClear>
-`
+
     - Then in ButtonClear.jsx add the manejarClear props in onClick event listener. ejem:
-    `
+ 
     <div onClick={props.manejarClear} 
 	className='boton-clear'>
 		{props.children}
 	</div>
-    `
+    
 
-## 5 Calculate the results
+## 5. Calculate the results
+   
     - Evaluate results when user clicks on ' = '
         For this evaluation it will be import the module {evaluate} from 'mathjs' package 
         - install package 'mathjs' ` npm install mathjs ` more info: " https://mathjs.org/docs/getting_started.html "
-    ### With this package the calculation is made in this function:
-`
+
+   ### With this package the calculation is made in this function:
+
     const calculateResult = () => {
-        setInput(evaluate(input));
-  };
-`    
+        setInput(evaluate(input));  };
+   
 ### Note:
     In case the user click on ' = ' without typing before any caracter and the the user click on numbers and again in  ' = ' it will give error so to avoid error, will be a condition in calcullateResult that will check in 'input' is true. if true will make the evaluation. else will give an alert.
 
